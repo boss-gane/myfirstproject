@@ -11,7 +11,7 @@ public class HomeController {
 	@RequestMapping("/home")
 	@ResponseBody
 	public String getHome() {
-		return "this is your first web page....";
+		return "this is your first web page...updated to dummy.";
 	}
 	
 	
